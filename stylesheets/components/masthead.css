@@ -1,1 +1,90 @@
-/* Your code here */
+.masthead {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+    "menu . actions"
+    ". tech ."
+    "date logo paper";
+}
+
+.masthead__menu-and-search {
+  align-items: center;
+  display: flex;
+  grid-area: menu;
+  padding-left: 20px;
+
+}
+
+.masthead__actions {
+  grid-area: actions;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.masthead__technologies {
+  grid-area: tech;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  top: 1px;
+}
+
+.masthead__technologies__parent {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #6f6f6f;
+  border-top: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+
+}
+
+.tech-names {
+  margin: 0 15px 0;
+}
+
+.masthead__logo {
+  grid-area: logo;
+}
+
+.masthead__paper {
+  grid-area: paper;
+}
+
+.menu-search {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+
+.menu-search:hover {
+  background-color: #f7f7f5;
+}
+
+.masthead__logo {
+  text-align: center;
+  padding: 15px 0 11px;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+}
+
+.masthead__date {
+  grid-area: date;
+}
+
+.masthead__date,
+.masthead__paper {
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 11px;
+  border-top: 1px solid #e2e2e2;
+}
+
+.masthead__paper {
+  justify-content: flex-end;
+}
