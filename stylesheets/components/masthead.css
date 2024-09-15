@@ -74,6 +74,7 @@
 
 .masthead__date {
   grid-area: date;
+  font-size: 14px;
 }
 
 .masthead__date,

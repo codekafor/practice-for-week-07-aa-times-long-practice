@@ -1,1 +1,76 @@
-/* Your code here */
+.interests-bar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 
+                         0.75fr;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  line-height: 1.3;
+}
+
+.interest-bar__links {
+
+}
+
+.interests-bar__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+  padding: 15px 0;
+}
+
+.interests-bar__headline {
+  font-weight: bold;
+  padding: 10px 0 5px;
+}
+
+.interests-bar__story {
+  font-size: 12px;
+}
+
+.interests-bar__temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  /* padding: 50px 0; */
+  text-align: center;
+}
+
+.interests-bar__stocks-container > * {
+  border-bottom: 1px solid #dcdcdc;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.interests-bar__stocks-container {
+  padding: 10px;
+}
+
+.interests-bar__stocks-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  border-bottom: 1px solid #dcdcdc;
+  border-width: auto;
+  font-size: 12px;
+}
+
+.interests-bar__stocks {
+  color: rgb(59, 212, 59);
+  margin-left: 60px;
+}
+
+.interest-bar__dog-content, .interest-bar__cat-content,
+.interest-bar__plug-content, .interests-bar__stocks-container {
+  border-right: 1px solid #dcdcdc;
+  margin: 15px 5px 15px;
+  padding-right: px;
+  
+}
