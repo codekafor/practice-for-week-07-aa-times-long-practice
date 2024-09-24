@@ -75,3 +75,12 @@
   padding-right: px;
   
 }
+
+@media (max-width: 1000px) {
+  .interests-bar {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+}

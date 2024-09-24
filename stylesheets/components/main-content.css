@@ -196,3 +196,12 @@ li {
 .small-article-container-Stallman {
   padding-top: 10px;
 }
+
+@media (max-width: 1200px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .right-article-column {
+    display: none;
+  }
+}
