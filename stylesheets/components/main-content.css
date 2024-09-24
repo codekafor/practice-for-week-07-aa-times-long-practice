@@ -1,1 +1,198 @@
-/* Your code here */
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+  padding-bottom: 300px;
+}
+
+.headline {
+font-size: 30px;
+font-weight: bold;
+font-style: italic;
+margin-bottom: 25px;
+padding-top: 10px;
+}
+
+.left-article-column {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding-right: 20px;
+  border-right: 2px solid #e2e2e2;
+}
+
+.cat-academy {
+  /* margin-right: 15px; */
+}
+.sub-headline1 {
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.left-article-column-author {
+  padding: 20px 0 10px 0;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 12px;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+.left-article-comments {
+  color: #6288a5;
+  /* padding-top: 5px; */
+  font-size: 10px;
+} 
+
+.content-row {
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  margin-right: 0;
+  border-bottom: 2px solid #999;
+}
+
+#content-row-upper {
+  border-bottom: 2px solid #999;
+  padding-bottom: 40px;
+}
+
+#content-row-bottom {
+  padding-right: ;
+}
+
+.where-now {
+  font-size: 12px;
+  border-right: 1px solid #e2e2e2;
+  padding-right: 5px;
+}
+
+.sub-headline2-3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.left-article-column-author,
+.left-article-column-author2-3,
+.right-article-column-author1,
+.operations-author,
+.small-article-author {
+  font-family: 'Times New Roman', Times, serif;
+  color: #999;
+  font-size: 12px;
+}
+
+.right-article-column {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+
+.opinions-article {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 10px 0 5px;
+}
+
+.opinions-header {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 0 0 20px;
+}
+
+.right-article-column-author1,
+.operations-author {
+  
+}
+
+.right-article-column-sub-headline,
+.operations-sub-headline {
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 25px 0 25px;
+}
+
+.right-article-column-story {
+  font-size: 12px;
+}
+
+.opinions-comments,
+.operations-comments {
+  color: #6288a5;
+  padding-top: 15px;
+  font-size: 10px;
+}
+
+.operations-column {
+  padding: 10px 0 0 0;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 5px;
+}
+
+.operations-header {
+  font-size: 16px;
+  font-weight: bolder;
+  /* padding-bottom: 20px; */
+}
+
+.operations-sub-headline {
+  /* font-size: 12px;
+  padding-bottom: 15px; */
+}
+
+.operations-author {
+  padding-bottom: 15px;
+}
+
+.operations-image {
+  height: 80px;
+}
+
+.operations-story {
+  font-size: 12px;
+  padding: 10px 0 00px;
+}
+
+.small-artcles-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2px;
+}
+
+.small-article-section {
+  border-top: 1px solid #e2e2e2;
+}
+
+.small-article-headline {
+  margin: 2px 0 0;
+}
+
+.small-article-left-section-container {
+  border-right: 1px solid #e2e2e2;
+}
+
+.small-article-container-Torvalds,
+.small-article-container-Knuth,
+.small-article-container-Lovelace {
+  border-bottom: 1px solid #e2e2e2;
+  margin-right: 5px;
+}
+
+.small-article-container-Thompson,
+.small-article-container-Carmack {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.small-article-author {
+  padding-top: 4px;
+}
+
+.small-article-container-Thompson,
+.small-article-container-Carmack,
+.small-article-container-Stallman {
+  padding-top: 10px;
+}
